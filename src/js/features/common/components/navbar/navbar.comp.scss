@@ -1,0 +1,26 @@
+@import '../../../../../assets/styles/global-variables.scss';
+
+.navbar {
+  background-color: $brand-primary;
+  height: 50px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .listItem {
+    display: inline;
+
+    .link {
+      color: $brand-white;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+
+      padding: 5px 10px;
+      background-color: $brand-black;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+  }
+}

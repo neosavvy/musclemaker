@@ -1,0 +1,24 @@
+@import '../../../../assets/styles/global-variables';
+
+.container {
+  text-align: center;
+
+  .list {
+    margin: 0;
+    padding: 0;
+
+    .listItem {
+      list-style: none;
+      margin-bottom: 10px;
+
+      &:last-of-type {
+        margin-bottom: 30px;
+      }
+
+      .link {
+        text-decoration: none;
+        color: $brand-primary;
+      }
+    }
+  }
+}
