@@ -17,7 +17,9 @@
     "start": "NODE_ENV=development webpack-dev-server --config src/config/webpack/webpack.config.js",
     "start:build": "node server/server.js",
     "stats": "NODE_ENV=production webpack --config src/config/webpack/webpack.config.js --profile --json > webpack.stats.json",
-    "test": "ava"
+    "test": "ava",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -85,7 +87,8 @@
     "webpack": "2.1.0-beta.20",
     "webpack-dev-server": "2.1.0-beta.0",
     "webpack-merge": "0.14.1",
-    "webpack-validator": "2.2.7"
+    "webpack-validator": "2.2.7",
+    "@kadira/storybook": "^2.5.2"
   },
   "dependencies": {
     "mobx": "2.4.1",
